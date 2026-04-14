@@ -30,16 +30,6 @@ The four deliverables from the project brief map to this repo as follows:
     └── figures/
 ```
 
-## Data
-
-The project expects two files provided by the client:
-
-- `census-bureau.data` — 40 demographic and employment variables, a sampling weight, and a
-  binary income label, comma-delimited, no header.
-- `census-bureau.columns` — column names aligned to the indices in the data file.
-
-Place both files in a `data/` directory at the repo root before running the notebook.
-
 ## Setup
 
 Tested on Python 3.11.
@@ -80,7 +70,3 @@ All randomness is seeded with `SEED = 42` at the top of the notebook. A fresh ru
 produce the metrics in Table 1 of the report to within bootstrap noise. GMM cluster labels
 are arbitrary across runs, so the cluster numbering in Part 2 may differ from the report,
 but the cluster identities, defined by their feature profiles, will be the same.
-
-## Author
-
-Usama Ahmed, April 2026.
