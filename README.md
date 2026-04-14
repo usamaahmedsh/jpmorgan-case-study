@@ -50,10 +50,3 @@ The notebook is organized in two parts that match the two tasks:
 End-to-end runtime is roughly 25 to 35 minutes on a laptop. The two slow stages are the
 `RandomizedSearchCV` hyperparameter sweep in Part 1 and the SHAP value computation on the
 test set.
-
-## Reproducibility
-
-All randomness is seeded with `SEED = 42` at the top of the notebook. A fresh run should
-produce the metrics in Table 1 of the report to within bootstrap noise. GMM cluster labels
-are arbitrary across runs, so the cluster numbering in Part 2 may differ from the report,
-but the cluster identities, defined by their feature profiles, will be the same.
