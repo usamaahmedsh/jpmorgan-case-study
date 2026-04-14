@@ -36,9 +36,6 @@ cd notebooks
 jupyter notebook main.ipynb
 ```
 
-Run cells top to bottom. The notebook loads the data from `../data/`, so run it from
-inside the `notebooks/` directory.
-
 The notebook is organized in two parts that match the two tasks:
 
 - Part 1, Classification: EDA, feature engineering, logistic regression baseline, XGBoost
