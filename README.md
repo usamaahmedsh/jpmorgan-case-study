@@ -17,19 +17,6 @@ The four deliverables from the project brief map to this repo as follows:
    exploration, preprocessing, feature engineering, model architecture, training, evaluation,
    findings, business judgment, limitations, and references.
 
-## Repo layout
-
-```
-.
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── main.ipynb
-└── report/
-    ├── report.pdf
-    └── figures/
-```
-
 ## Setup
 
 Tested on Python 3.11.
